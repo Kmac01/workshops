@@ -1,0 +1,10 @@
+spring:
+   datasource:
+      username: workshops
+      password: workshops
+      url: jdbc:mysql://localhost:3306/workshops
+
+   jpa:
+      hibernate:
+         ddl-auto: create
+      show-sql: true
